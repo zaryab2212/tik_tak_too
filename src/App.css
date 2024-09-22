@@ -1,0 +1,29 @@
+.borad-div{
+  padding: .8rem;
+  border: 2px solid black;
+  height: 5rem;
+  width: 5rem;
+  border-color: black;
+  
+}
+
+.board{
+max-width: 30%;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  margin: auto;
+  
+}
+
+.btn{
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 8rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
